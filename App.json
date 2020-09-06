@@ -1,0 +1,37 @@
+{
+  "name": "BetBetBBot",
+  "description": "........",
+  "keywords": [
+    "telegram",
+    "best",
+    "open",
+    "source",
+    "Bot",
+    " BetBot",
+  ],
+  "success_url": "https://telegram.dog/Infinitetalk",
+  "repository": "https://github.com/sumonsn/betbetbbot",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
+      "value": "ANYTHING"
+    },
+    "TOKEN": {
+      "description": "Your bot Token"
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
+
