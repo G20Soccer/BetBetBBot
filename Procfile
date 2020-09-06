@@ -1,1 +1,1 @@
-Web: python3 BetBot.py
+Worker: python3 BetBot.py
