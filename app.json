@@ -10,6 +10,8 @@
     " BetBot",
   ],
   "success_url": "https://telegram.dog/Infinitetalk",
+  
+  "website": "https://small-sharp-tool.com/",
   "repository": "https://github.com/sumonsn/betbetbbot",
   "env": {
     "ENV": {
@@ -17,7 +19,8 @@
       "value": "ANYTHING"
     },
     "TOKEN": {
-      "description": "Your bot Token"
+      "description": "Your bot Token",
+      " value": ""
     }
   },
   "addons": [
