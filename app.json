@@ -12,7 +12,7 @@
     "Bangladesh"
   ],
   "env": {
-     "BOT_TOKEN": {
+     "Betbot": {
       "description": "Add your own bot token. Get token from botfather",
       "value": ""
     }
