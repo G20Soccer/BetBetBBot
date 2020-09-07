@@ -1,40 +1,25 @@
-{
-  "name": "BetBetBBot",
-  "description": "........",
-  "keywords": [
-    "telegram",
-    "best",
-    "open",
-    "source",
-    "Bot",
-    " BetBot",
-  ],
-  "success_url": "https://telegram.dog/Infinitetalk",
-  
-  "website": "https://small-sharp-tool.com/",
-  "repository": "https://github.com/sumonsn/betbetbbot",
-  "env": {
-    "ENV": {
-      "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
-      "value": "ANYTHING"
-    },
-    "TOKEN": {
-      "description": "Your bot Token",
-      " value": ""
-    }
-  },
-  "addons": [
-  ],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "heroku/python"
-  }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  }
-}
 
+{
+  "name": "Telegra.ph upload bot",
+  "description": "You can upload photos on telegra.ph using this bot.",
+  "repository": "https://github.com/hasibulkabir/telegraphbot",
+  "logo": "https://raw.githubusercontent.com/HasibulKabir/Raw-Package/master/IMG_20200526_114905_024.jpg",
+  "keywords": [
+    "bot",
+    "telegram",
+    "telegra.ph",
+    "hasibul",
+    "Bangladesh"
+  ],
+  "env": {
+     "BOT_TOKEN": {
+      "description": "Add your own bot token. Get token from botfather",
+      "value": ""
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+ }
