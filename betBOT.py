@@ -14,7 +14,7 @@ from betMODEL import Match, Ranking, Bet, User, get_matches, get_bets, \
 from betLANG import gettext, change_lang
 
 
-token = os.environ.get('betBOT')
+token = os.environ['betBOT']
 
 _ = gettext
 
